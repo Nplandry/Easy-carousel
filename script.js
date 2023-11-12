@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Con intervalo de ejecuta esta funcion con los valores definidos en nextSlide, osea el offsetwidth en negativo.
 
     // Configurar intervalo para cambiar automáticamente de diapositiva cada 10 segundos mientras llamamos a la funcion nextSlide
-    var intervalId = setInterval(nextSlide, 3000); 
+    var intervalId = setInterval(nextSlide, 8000); 
 
 });
 const punto1 = document.querySelectorAll(".punto1")
@@ -83,8 +83,8 @@ document.addEventListener("DOMContentLoaded", event => {
         })
     }
     // Set de ambos intervalos
-    var intervalPuntos = setInterval(intervalActive, 3000); 
-    var intervalpunto2 = setInterval(intervalActive2, 6000)
+    var intervalPuntos = setInterval(intervalActive, 8000); 
+    var intervalpunto2 = setInterval(intervalActive2, 16000)
 
 })
 
