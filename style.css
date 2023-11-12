@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carrusel {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.carrusel .carrusel-content {
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-content: start;
+    transform: translateX(0%);
+    transition: 0.9s;
+}
+
+.carrusel-content img {
+    width: calc(100% / 2);
+}
+
+.puntos {
+    display: flex;
+    flex-grow: row wrap;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.puntos .punto {
+    list-style: none;
+    margin: 0 20px;
+}
+.puntos .punto i {
+    font-size: 60px;
+    cursor: pointer;
+}
+.activo {
+    color: gray
+}
